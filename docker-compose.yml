@@ -9,7 +9,7 @@ services:
     volumes:
       - ./webapp/:/opt/shibboleth-idp/dist/webapp/
       - ./messages/:/opt/shibboleth-idp/messages/
-      - ./config/shib-idp/conf:/opt/shibboleth-idp/conf/examples
+      - ./config/shib-idp/conf:/opt/shibboleth-idp/conf/
 
 
 volumes:
